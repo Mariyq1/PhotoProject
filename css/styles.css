@@ -19,6 +19,7 @@ h1{
     font-size: 72px;
     line-height: 84px;
     margin: 20px 0px;
+    text-align: center;
 }
 p{
     font-size: 18px;
@@ -28,7 +29,6 @@ p{
     background-image: url("/images/bg.png");
     background-size: 100%;
     margin: 0px;
-    text-align: center;
     padding: 350px 0px;
 }
 .btn-branding{
@@ -47,6 +47,11 @@ font-size: 18px;
 line-height: 21px;
 margin-top: 50px;
 }
+.about-container h1{
+  text-align: left;
+  font-size: 64px;
+    line-height: 75px;
+}
 .social-links a{
   color: var(--primary-color);
   text-decoration: none;
@@ -62,8 +67,8 @@ padding: 20px;
 display: inline;
 
 
-
 }
+
 @media(max-width:960px){
   h1{
  font-size: 24px;
@@ -86,6 +91,11 @@ display: inline;
     padding:8px 10px;
   }
  .about-container{
+  text-align: center;
+ }
+ .about-container h1{
+  font-size: 20px;
+  line-height: 24px;
   text-align: center;
  }
 }
