@@ -33,6 +33,49 @@ p{
     font-size: 18px;
     line-height: 30px;
 }
+.logo {
+  max-height: 60px;
+}
+
+nav {
+  padding: 20px 0px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li{
+  display: inline;
+  list-style: none;
+  font-size: 16px;
+    line-height: 19px;
+  margin-left: 15px;
+  
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+  font-weight: 500;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+.navbar-nav .nav-link{
+  color:var(--primary-color);
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--branding-color);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
 .hero{
     background-image: url("/images/bg.png");
     background-size: 100%;
@@ -72,8 +115,6 @@ padding: 20px;
 }
 .camera-description p{
 display: inline;
-
-
 }
 
 @media(max-width:960px){
