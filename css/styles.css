@@ -125,6 +125,15 @@ display: inline;
 .foot-box img{
   padding-bottom: 30px;
 }
+.col-md-6{
+  padding: 0px;
+}
+.col-md-4{
+  padding:0px;
+}
+.row{
+  margin: 0px;
+}
 @media(max-width:960px){
   h1{
  font-size: 24px;
@@ -161,15 +170,9 @@ display: inline;
  .container{
   padding: 0px;
  }
- .row{
-  margin-left: 0px;
-  margin-right: 0px;
-
- }
- .row col-md-4{
-  padding: 0px;
- }
+ 
  .social-links{
   padding-left: 50px;
  }
+
 }
